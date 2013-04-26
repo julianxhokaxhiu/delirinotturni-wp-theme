@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <title>{{wpapi.wp_title()}}</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="pingback" href="/xmlrpc.php" />
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{twpapi.base_url}}/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{twpapi.base_url}}/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{twpapi.base_url}}/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="{{twpapi.base_url}}/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="{{twpapi.base_url}}/ico/favicon.png">
+    <link rel="icon" href="{{twpapi.base_url}}/favicon.ico" />
+    <!-- Le styles -->
+    <link href='//fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'>
+    {{ twpapi.fn.addCss('/css/bootstrap.min.css') }}
+    {{ twpapi.fn.addCss('/css/font-awesome.min.css') }}
+    {{ twpapi.fn.addCss('/css/font-awesome-social.css') }}
+    {{ twpapi.fn.addCss('/css/font-awesome-corp.css') }}
+    {{ twpapi.fn.addCss('/css/font-awesome-ext.css') }}
+    <!--[if lt IE 8]>
+      <link href="{{twpapi.base_url}}/css/font-awesome-ie7.min.css" rel="stylesheet">
+      <link href="{{twpapi.base_url}}/css/font-awesome-more-ie7.min.css" rel="stylesheet">
+    <![endif]-->
+    {{ twpapi.fn.addCss('/css/delirinotturni.css') }}
+    {{ twpapi.fn.addCss('/css/bootstrap-responsive.min.css') }}
+    {{ twpapi.fn.addCss('/css/style.css') }}
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="{{themeurl}}/js/html5shiv.js"></script>
+    <![endif]-->
+    {{ twpapi.fn.addJs('/js/script.js') }}
+    {# This is necessary to print all the things you do before :) #}
+    {{ wpapi.wp_head() }}
+  </head>
+  <body {{wpapi.body_class()}}>
