@@ -16,4 +16,4 @@
  4. Enjoy
 
 ## LICENSE ##
-This is currently licensed as GPLv3 (see attached LICENSE file also)
+This is currently licensed as MIT (see attached LICENSE file also)
